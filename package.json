@@ -2,30 +2,40 @@
   "name": "markdown-to-epub",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "epub.js",
   "scripts": {
-    "dev": "tsx index.ts"
+    "dev": "pnpm dev:epub && pnpm dev:web",
+    "dev:epub": "tsx src/epub.ts",
+    "serve": "view preview",
+    "dev:web": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@lesjoursfr/html-to-epub": "^4.3.2",
+    "epubjs": "^0.3.93",
     "hast-util-from-string": "^3.0.0",
     "hast-util-select": "^6.0.2",
     "hast-util-to-string": "^3.0.0",
     "rehype-document": "^7.0.3",
     "rehype-format": "^5.0.0",
     "rehype-stringify": "^10.0.0",
+    "remark-frontmatter": "^5.0.0",
+    "remark-gfm": "^4.0.0",
     "remark-parse": "^11.0.0",
     "remark-rehype": "^11.1.0",
     "to-vfile": "^8.0.0",
     "unified": "^11.0.5",
+    "vfile-matter": "^5.0.0",
     "vfile-reporter": "^8.1.1"
   },
   "devDependencies": {
     "@types/node": "^20.14.12",
     "tsx": "^4.16.2",
-    "typescript": "^5.5.4"
+    "typescript": "^5.5.4",
+    "vite": "^5.3.5"
   }
 }
