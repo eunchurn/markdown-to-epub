@@ -1,0 +1,100 @@
+body {
+  font-family: SeoulNamsanM, 'Times New Roman', Times, serif;
+}
+
+@font-face {
+  font-family: "SeoulNamsanM";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./fonts/SeoulNamsanM.ttf");
+}
+
+/* unvisited link */
+a:link {
+  color: inherit;
+}
+
+/* visited link */
+a:visited {
+  color: inherit;
+}
+
+/* mouse over link */
+a:hover {
+  color: inherit;
+}
+
+/* selected link */
+a:active {
+  color: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  padding-left: 0;
+  margin-top: 0;
+  padding-top: 0;
+  padding-right: 0;
+  margin-bottom: 6.509%;
+  padding-bottom: 0;
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: normal;
+  font-size: 218.750%;
+  font-family: "SeoulNamsanM";
+  color: #000000;
+  letter-spacing: -0.020em;
+  font-variant: normal;
+  text-transform: uppercase;
+  text-align: left;
+  text-indent: 0;
+  line-height: 0.943em;
+  hyphens: none;
+  -webkit-hyphens: none;
+  -webkit-text-stroke-color: initial;
+  -webkit-text-stroke-width: initial;
+  text-shadow: none;
+}
+
+h2 {
+  padding-left: 0;
+  margin-top: 0;
+  padding-top: 0;
+  padding-right: 0;
+  margin-bottom: 6.509%;
+  padding-bottom: 0;
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: normal;
+  font-size: 218.750%;
+  font-family: "SeoulNamsanM";
+  color: #000000;
+  letter-spacing: -0.020em;
+  font-variant: normal;
+  text-transform: uppercase;
+  text-align: left;
+  text-indent: 0;
+  line-height: 1.210em;
+  hyphens: none;
+  -webkit-hyphens: none;
+  -webkit-text-stroke-color: initial;
+  -webkit-text-stroke-width: initial;
+  text-shadow: none;
+}
+
+p {
+  margin: 0px;
+}
+
+sub {
+  vertical-align: -10%;
+  font-size: 67%;
+}
+
+sup {
+  vertical-align: 33%;
+  font-size: 67%;
+}
