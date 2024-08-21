@@ -37,12 +37,13 @@ const meta: Meta = {
   description: "",
   cssFile: "resources/css/styles.css",
   books: [
-    "resources/body/translated_01.md",
-    "resources/body/translated_02.md",
-    "resources/body/translated_03.md",
-    "resources/body/translated_04.md",
-    "resources/body/translated_05.md",
-    "resources/body/translated_06_security.md",
+    "resources/body/getting-started/translated_01_getting_started.md",
+    "resources/body/getting-started/translated_02_intro.md",
+    "resources/body/getting-started/translated_03_quickstart.md",
+    "resources/body/getting-started/translated_04_communicate.md",
+    "resources/body/getting-started/translated_05_ingest_data.md",
+    "resources/body/getting-started/translated_06_search_data.md",
+    "resources/body/getting-started/translated_07_security.md",
   ],
 };
 
